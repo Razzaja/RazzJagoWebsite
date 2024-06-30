@@ -158,9 +158,7 @@ margin-top: 80px;
 
 .footer{
   display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
+  flex-direction:row;
 }
 .link {
   width:100px;
