@@ -1,0 +1,189 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  font-family:"Roboto";
+}
+
+body {
+background-color: #222;  
+}
+
+.fcontainer {
+  display:flex; 
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+ box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+ 
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: rebeccapurple;
+  font-weight: 1000;
+  padding-left: 15px;
+  font-size: 40px;
+}
+
+.secondname {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation>li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navigation > li > a {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 1000;
+}
+
+.navigation> li >a:hover {
+  color: rebeccapurple ;
+  transition: all .8s ease-in-out;
+}
+
+.navigation> li > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.navigation >li > img:hover {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  transition: all .5s ease-in-out
+}
+
+.active {
+  background-color: rebeccapurple;
+  color: #000;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.active:hover {
+  color: rebeccapurple !important;
+}
+
+.teks1 {
+  margin-top:40px;
+  text-align: center;
+  color: rebeccapurple;
+  font-weight: 1000;
+  font-size: 40px;
+}
+
+.teks2{
+margin-top:10px;
+text-align: center;
+color: white;
+font-weight: 500;
+font-size: 12px;
+}
+
+.teks3 {
+margin-top:20px;
+text-align: center;
+color: white;
+font-weight: 500;
+font-size:12px;
+}
+
+.teks4 {
+margin-top:20px;
+text-align: center;
+color: white;
+font-weight: 500;
+font-size: 12px;
+}
+
+.teks5 {
+  margin-top:20px;
+text-align: center;
+color: white;
+font-weight: 500;
+font-size: 12px;
+}
+
+.gw {
+height: 400px;  
+width: 600px;
+display: block;
+margin-left: auto;
+margin-right:auto;
+margin-top: 80px;
+}
+
+.div-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:140px;
+  margin-top: 150px;
+}
+
+.h5-footer {
+  margin-bottom: 15px;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  margin-top: 90px;
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  width:80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.link2 {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  margin-right: auto;
+  display:block;
+}
+
+.link3 {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  margin-right: auto;
+  display:block;
+}
