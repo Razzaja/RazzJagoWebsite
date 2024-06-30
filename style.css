@@ -159,11 +159,7 @@ margin-top: 80px;
   margin-top: 90px;
 }
 
-.footer {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .link {
   width:80px;
   height: 80px;
