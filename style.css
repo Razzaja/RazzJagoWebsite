@@ -144,9 +144,9 @@ margin-top: 80px;
 }
 
 .div-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left:90px;
+  margin-right:90px;
   height:140px;
   margin-top: 150px;
 }
