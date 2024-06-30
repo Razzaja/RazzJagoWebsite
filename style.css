@@ -147,7 +147,6 @@ margin-top: 80px;
   display: block;
   margin-left:90px;
   margin-right:90px;
-  height:140px;
   margin-top: 150px;
 }
 
@@ -167,9 +166,9 @@ margin-top: 80px;
 .link {
   width:80px;
   height: 80px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+margin-left: 90px;
+  margin-right: 90px;
+  display: block;
 }
 
 .link2 {
